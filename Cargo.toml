@@ -1,0 +1,18 @@
+[package]
+name = "omnivideo-sdk"
+version = "0.1.0"
+edition = "2021"
+authors = ["Omni Video"]
+description = "Omni Video Rust SDK — generate video and image content with the Gemini Omni Video series of models."
+license = "MIT"
+repository = "https://github.com/beamtrace/omnivideo-sdk-rust"
+homepage = "https://omnivideo.net/"
+documentation = "https://omnivideo.net/api-docs"
+keywords = ["omnivideo", "ai", "video", "image", "gemini"]
+categories = ["api-bindings"]
+readme = "README.md"
+
+[dependencies]
+ureq = { version = "2", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
